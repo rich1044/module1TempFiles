@@ -1,0 +1,32 @@
+<footer class="cFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <% if (theme.facebook_link) { %>
+                        <li>
+                            <a href="<%- theme.facebook_link%>" target="_blank">
+                                <span class="facebook">
+                                    <img src="/images/facebook.png" alt ="facebook" style="width:50px;height:50px" >
+                                    </a>
+                                </span>
+                            </a>
+                        </li>
+                    <% } %>
+
+                    <% if (theme.twitter_link) { %>
+                        <li>
+                            <a href="<%- theme.twitter_link%>" target="_blank">
+                                <span class="twitter">
+                                    <img src="/images/twitter.png" alt ="twitter" style="width:50px;height:50px" >
+                                </span>
+                            </a>
+                        </li>
+                    <% } %>
+                  </ul>
+                <p class="Footer-After" Style="width:40%;margin-left:auto;margin-right:auto">Original Theme <a target="_blank" href="https://github.com/umn-5117-f16/module-1-group-project-webcrows">Webcrows theme</p>
+                <p class="Footer-After" Style="width:40%;margin-left:auto;margin-right:auto">Adopted for <a target="_blank" href="https://hexo.io/">Hexo</a> by WebCrows </p>
+            </div>
+        </div>
+    </div>
+</footer>

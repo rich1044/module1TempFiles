@@ -1,0 +1,13 @@
+<div class="nav">
+    <h4>Links</h4>
+    <ul>
+    <li><a href="/">home</a></li>
+    <% theme.menu.forEach(function(m){ %>
+    <li>
+    <a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>">
+      <%- m.title %>
+    </a>
+    </li>
+    <% }) %>
+    </ul>
+</div>

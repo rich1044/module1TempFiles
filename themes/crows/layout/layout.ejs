@@ -1,0 +1,20 @@
+<html>
+<%- partial('_partial/head') %>
+  <body>
+    <div class="container">
+      <%- partial('_partial/header') %>
+      <div class="row">
+        <div class="col-sm-2 blog-sidebar">
+          <a href=""><img src="../images/leftArrow.png" alt="" class="rightArrow"/></a>
+        </div>
+        <div class="col-sm-8" id="content" style="background-color: grey; height:550px; ">
+          <%- body %>
+        </div>
+        <div class="col-sm-2 blog-sidebar">
+          <a href=""><img src="../images/rightArrow.png" alt="" class="rightArrow"/></a>
+        </div>
+      </div>
+      <%- partial('_partial/footer') %>
+    </div>
+  </body>
+</html>

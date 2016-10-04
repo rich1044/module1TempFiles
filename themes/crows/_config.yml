@@ -1,0 +1,22 @@
+excerpt_link: Read More
+
+menu:
+  - title: map
+    url: map
+    intro: "Map of concerts"
+  - title: gallery
+    url: gallery
+    intro: "Band gallery"
+
+facebook_link: 'https://www.facebook.com/sharer/sharer.php?u=example.org'
+facebook_title: Facebook
+facebook_icon: fa-facebook
+facebook_enalbe: true
+github_link: 'https://github.com/'
+github_title: GitHub
+github_icon: fa-github
+github_enable: true
+twitter_link: 'https://twitter.com/home?status='
+twitter_title: Twitter
+twitter_icon: fa-twitter
+twitter_enable: true
